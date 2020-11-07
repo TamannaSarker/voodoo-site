@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Amatic SC', cursive;
+   
+}
+h1{
+    font-size:40px;
+}
+p{
+    color: dimgray;
+    font-size:20px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+/* Header*/
+.header{
+    text-align: center;
+    padding-top: 2rem;
+    background-image: url(bilder/header.png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:50rem ;
+
+}
+/* section-1*/
+.container{
+    text-align: right;
+    margin-right: 20%;
+
+
+}
+/*section-2*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.flex-container > div{
+    margin-top: 5rem;
+    padding-left: 5rem;
+
+    
+
+}
+/*section-3*/
+video{
+    width: 100%;
+    height: 700px;
+}
+/*section-4*/
+.flex-container-1{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-right: 30px;
+}
+/*section-5*/
+.container-1 > div{
+    padding: 100px;
+    
+    }
+
+/*section-6*/
+.container-2{
+    background-image: url(bilder/Q1_newsletter-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:500px;
+}
+.div6{
+    text-align: center;
+    padding-top: 200px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+/* footer*/
+
+
+.container-3{
+    display: flex;
+    height: 300px;
+    background-color:black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+   }
+.container-3 > div{
+    padding: 40px;
+    margin-top: 40px;
+    line-height: 1.5;
+
+}
+.div8{
+    text-align: right;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        background-color:lightpink;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container  {
+        margin: 0;
+        padding: 40px;
+        background-color: mediumslateblue;
+    }
+    .color{
+        color: white;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .flex-container{
+        display: block;
+        background-color: indianred;
+        padding-top: 10px;
+        padding-right: 40px;
+        
+    }
+     p{
+        
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    video{
+        height: 280px;
+        width: 100%;
+        margin: 0%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .flex-container-1{
+        display: block;
+        margin: 0%;
+        padding:10px ;
+        background-color: lightgoldenrodyellow;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container-1{
+        background-color: lightgreen;
+       
+    }
+    .color-1{
+        color: black;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .container-2{
+        margin: 0%;
+        height:800px ;
+        font-size: 13px;
+       
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container-3{
+        margin: 0%;
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+    .div8{
+        padding-top: 60px;
+    }
+}
+
